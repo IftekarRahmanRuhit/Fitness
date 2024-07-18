@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+}
+.header{
+    width: auto;
+    height:715px;
+    border: 2px solid tomato;
+    background: linear-gradient(180deg, rgb(17, 17, 17)100%,rgba(254, 249, 249, 0.367) 100%);
+    
+}
+
+.navbar-section-container{
+    width: 80%;
+    margin: 0 auto;
+    height:5rem ;
+    /* border: 2px solid tomato; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 3.6rem; */
+    padding-top: 3.6rem;
+}
+.nav-options{
+    display: flex;
+    flex-direction: row;
+    width: 25rem;
+    height: 2.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 40px;
+}
+.navbar-section-container h3{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.nav-options p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#home-btn{
+    width: 5.5rem;
+    height: 2.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 2.8rem;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#home-btn:hover{
+    color: rgb(68, 26, 16) ;
+}
+.nav-options p:hover{
+    color: rgb(230, 83, 60); 
+    text-decoration: solid white;
+}
+.banner-section-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 35rem;
+    border: 2px solid tomato;
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+}
+.banner-section-content{
+    width: 520px;
+    height:500px;
+    border: 2px solid greenyellow;
+}
+.banner-section-content h3{
+    color: rgb(255, 255, 255);
+    font-size: 68px;
+    font-weight: 900;
+}
+#shape{
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+}
+.banner-section-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -40px;
+}
+.button-container{
+    margin-top:28px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#join{
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#download-App{
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: none;
+    border-radius: 42px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+#join:hover{
+    color: black;
+}
+#download-App:hover{
+    color:rgb(230, 83, 60);
+}
+.banner-img-container{
+    width: 520px;
+    height:500px;
+    border: 2px solid #12a9d7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner-img-container img{
+    width: 349px;
+    height: 580px;
+}
+.video-tutorial{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.circle-container{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.video-tutorial-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-tutorial-content h6{ 
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(250, 250, 249);
+    margin-bottom: 10px;
+}
+.video-tutorial-content p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -10px;
+
+}
