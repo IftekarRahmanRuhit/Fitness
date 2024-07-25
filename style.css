@@ -10,7 +10,7 @@ body{
 }
 .header{
     width: auto;
-    height:730px;
+    height:725px;
     border: 2px solid tomato;
     background: linear-gradient(180deg, rgb(17, 17, 17)100%,rgba(254, 249, 249, 0.367) 100%);
     
@@ -72,7 +72,7 @@ body{
     width: 80%;
     margin: 0 auto;
     height: 35rem;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     display: flex;
     flex-direction: row;
     margin-top: 35px;
@@ -80,7 +80,7 @@ body{
 .banner-section-content{
     width: 520px;
     height:500px;
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
 }
 .banner-section-content h3{
     color: rgb(255, 255, 255);
@@ -135,12 +135,13 @@ body{
 .banner-img-container{
     width: 520px;
     height:500px;
-    border: 2px solid #12a9d7;
+    /* border: 2px solid #12a9d7; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-left: 125px;
 }
 .banner-img-container img{
     width: 349px;
