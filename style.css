@@ -150,6 +150,7 @@ body{
     width: 349px;
     height: 580px;
     margin-top: 20px;
+    
 }
 .video-tutorial{
     width: 206px;
@@ -218,7 +219,7 @@ body{
     width: 60%;
     margin: 0 auto;
     height: 200px;
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     margin-top: 50px;
 }
 .habit-section-content{
@@ -238,6 +239,98 @@ body{
     color: rgba(255, 255, 255, 0.5);
     position: relative;
     top: -40px;
+}
+.habit-section-img-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    /* border: 2px solid tomato; */
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.movement img{
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    border: 2px solid rgba(254, 249, 249, 0.367);
+}
+.movement h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.movement p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    top: -19px;
+}
+.time img{
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    border: 2px solid rgba(254, 249, 249, 0.367);
+}
+.time h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.time p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    top: -19px;
+}
+.practice img{
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    border: 2px solid rgba(254, 249, 249, 0.367);
+}
+.practice h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.practice p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    top: -19px;
+}
+
+.weight-loss img{
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    border: 2px solid rgba(254, 249, 249, 0.367);
+}
+.weight-loss h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.weight-loss p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    top: -19px;
 }
 
 
@@ -287,4 +380,36 @@ body{
     .habit-section-content p{
         text-align: center;
     }
+    .habit-section-img-container{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 30px;
+        height: 1330px;
+        width: 60%;
+        gap: 20px;
+    }
+    .movement img{
+        left: 75px;
+    }
+    .time img{
+        left: 75px;
+    }
+    .practice img{
+        left: 75px;
+    }
+    .weight-loss img{
+        left: 75px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+    
 }
