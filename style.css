@@ -251,10 +251,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+.movement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .movement img{
     border-radius: 50%;
     position: relative;
-    left: 35px;
+    /* left: 30px; */
     border: 2px solid rgba(254, 249, 249, 0.367);
 }
 .movement h5{
@@ -269,12 +275,18 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     position: relative;
-    top: -19px;
+    bottom: 30px;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .time img{
     border-radius: 50%;
     position: relative;
-    left: 35px;
+    /* left: 35px; */
     border: 2px solid rgba(254, 249, 249, 0.367);
 }
 .time h5{
@@ -289,12 +301,17 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     position: relative;
-    top: -19px;
+    bottom: 30px;
+}
+.practice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .practice img{
     border-radius: 50%;
     position: relative;
-    left: 35px;
     border: 2px solid rgba(254, 249, 249, 0.367);
 }
 .practice h5{
@@ -309,13 +326,18 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     position: relative;
-    top: -19px;
+    bottom: 30px;
+}
+.weight-loss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .weight-loss img{
     border-radius: 50%;
     position: relative;
-    left: 35px;
     border: 2px solid rgba(254, 249, 249, 0.367);
 }
 .weight-loss h5{
@@ -330,7 +352,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     position: relative;
-    top: -19px;
+    bottom: 30px;
 }
 .run-extra-sction-container{
     width:70%;
@@ -487,22 +509,32 @@ body{
         width: 60%;
         gap: 20px;
     }
-    .movement img{
-        left: 37px;
-    }
-    .movement{
+    .run-extra-sction-container{
+        flex-direction:column;
+        height: 700px;
+        padding: 25px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 80px;
         justify-content: center;
         align-items: center;
+        /* padding: 45px; */
+       
     }
-    .time img{
-        left: 37px;
+    .run-extra-sction-img-container{
+        width: 390px;
+        width: 90%;
+        margin: 0 auto;
     }
-    .practice img{
-        left: 37px;
+    .run-extra-sction-content{
+        width: 90%;
+        height: 330px;
+        /* border: 2px solid aqua; */
     }
-    .weight-loss img{
-        left: 37px;
+    .run-extra-sction-img-container img{
+        margin-top: 25px;
     }
+
     
 
 
