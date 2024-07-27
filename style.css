@@ -438,18 +438,34 @@ body{
     }
     .banner-img-container{
         width: 90%;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-top: 150px;
     }
     .workout-videos{
-        width: 193px;
-        height: 98px;
-        right: -40px;
+        width: 146px;
+        height: 74px;
+        right: -5px;
         top: 15px;
     }
     .video-tutorial{
+        width: 156px;
+        height: 73px;
         bottom: 190px;
-        left: -15px;
+        left: -10px;
+    }
+    .circle-container{
+        width: 30px;
+        height: 30px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .number-2{
+        font-size: 30px;
+
+    }
+    .description-02{
+        font-size: 10px;
     }
 
 
