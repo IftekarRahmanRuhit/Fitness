@@ -430,7 +430,7 @@ body{
 }
 .calculate-bmi-container{
     width:auto;
-    height: 470px;
+    height: 490px;
     background-color: rgb(34, 34, 34);
     padding-top: 50px;
 
@@ -548,6 +548,159 @@ body{
 #calculate:hover{
     color: black;
 }
+.meet-our-team-section-container{
+    width: 60%;
+    margin: 0 auto;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid salmon; */
+    margin-top: 100px;
+}
+.meet-our-team-section-container h3{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.meet-our-team-section-container p{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    position: relative;
+    bottom: 30px;
+}
+.trainer-introduce-section-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 570px;
+    /* border: 2px solid aqua; */
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    border-radius: 18px;
+}
+.trainer-1{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer1.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    /* left: 15px; */
+
+}
+.name{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    top: 200px;
+    left: 20px;
+    
+}
+.profession{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.59);
+    position: relative;
+    top: 185px;
+    left: 20px;
+}
+.trainer-2{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer2.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    /* left: 15px; */
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.trainer-3{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer3.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    /* left: 15px; */
+}
+.trainer-4{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer4.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    /* left: 15px; */
+}
+.trainer-5{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer5.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    /* left: 15px; */
+}
+.trainer-6{
+    width: 326px;
+    height: 270px;
+    background-image: url(./images/trainer6.png);
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: cover;
+    position: relative;
+    border-radius: 18px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    /* left: 15px; */
+}
+.ch{
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    border: 2px solid tomato;
+    margin-top: 40px;
+}
+
+
+
 
 
 
@@ -734,6 +887,32 @@ body{
         width: 334px;
         height: 48px;
     }
+    .meet-our-team-section-container{
+        width: 70%;
+        height: 150px;
+    }
+    .meet-our-team-section-container h3{
+        font-size: 32px;
+    }
+    .meet-our-team-section-container p{
+        bottom: 20px;
+    }
+    .trainer-introduce-section-container{
+        width: 80%;
+        margin: 0 auto;
+        height: 1770px;
+        /* border: 2px solid aqua; */
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        border-radius: 18px;
+    }
+    .trainer-1,.trainer-2,.trainer-3,.trainer-4,.trainer-5,.trainer-6 {
+        margin-left: 10px;
+    }
+
 
 
     
