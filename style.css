@@ -116,6 +116,8 @@ body{
     border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
 }
 #download-App{
     width: 224px;
@@ -127,13 +129,17 @@ body{
     border-radius: 42px;
     border: 1px solid rgb(255, 255, 255);
     cursor: pointer;
+    transition: border-color 0.3s ease;
     
 }
 #join:hover{
-    color: black;
+    color:rgb(230, 83, 60);
+    background: rgba(15, 15, 15, 0.284);
+    border-color:rgb(230, 83, 60);
 }
 #download-App:hover{
     color:rgb(230, 83, 60);
+    border-color: rgb(230, 83, 60);
 }
 .banner-img-container{
     width: 520px;
@@ -389,12 +395,16 @@ body{
     font-weight: 600;
     background-color: rgb(230, 83, 60);
     border-radius: 42px;
-    border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+ 
 }
 #join-now:hover{
-    color: black;
+    color:rgb(230, 83, 60);
+    background: rgba(15, 15, 15, 0.284);
+    border-color:rgb(230, 83, 60);
 }
 .run-extra-sction-img-container{
     width: 370px;
@@ -540,13 +550,16 @@ body{
     font-weight: 600;
     background-color: rgb(230, 83, 60);
     border-radius: 42px;
-    border: none;
     color: rgb(255, 255, 255);
     cursor: pointer;
     margin-left: 20px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
 }
 #calculate:hover{
-    color: black;
+    color:rgb(230, 83, 60);
+    background: rgba(15, 15, 15, 0.284);
+    border-color:rgb(230, 83, 60);
 }
 .meet-our-team-section-container{
     width: 60%;
