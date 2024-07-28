@@ -428,6 +428,111 @@ body{
     top: -30px;
 
 }
+.calculate-bmi-container{
+    width:auto;
+    height: 430px;
+    background-color: rgb(34, 34, 34);
+    padding-top: 50px;
+
+}
+.calculate-bmi-content-container{
+    width: 80%;
+    height: 395px;
+    margin: 0 auto;
+    border: 2px solid  aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bmi-chart-container h5{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.bmi-chart-table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    
+}
+.bmi-chart-table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px 30px;
+}
+.table-heading td{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.bmi-calculator-container{
+    margin-left: 40px;
+}
+.bmi-calculator-container h5{
+    font-size: 28px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+.bmi-calculator-container p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
+    
+}
+.form{
+    padding:20px;
+   
+}
+.form-field{
+    width: 282px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+margin: 10px;
+margin-left: 0;
+}
+.form-field::placeholder{
+    padding: 10px;
+}
+
+#sex{
+    width: 285px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 0px;
+    padding: 10px;
+}
+#activity-factor{
+    width: 584px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+
 
 
 
