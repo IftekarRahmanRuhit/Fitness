@@ -411,8 +411,8 @@ body{
     width: 40%;
     margin: 0 auto;
     height: 200px;
-    margin-top: 50px;
-    border: 2px solid tomato;
+    margin-top: 80px;
+    /* border: 2px solid tomato; */
     
 }
 .bmi-calculator h3{
@@ -430,16 +430,16 @@ body{
 }
 .calculate-bmi-container{
     width:auto;
-    height: 430px;
+    height: 470px;
     background-color: rgb(34, 34, 34);
     padding-top: 50px;
 
 }
 .calculate-bmi-content-container{
     width: 80%;
-    height: 395px;
+    height: 460px;
     margin: 0 auto;
-    border: 2px solid  aqua;
+    /* border: 2px solid  aqua; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -481,6 +481,8 @@ body{
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     margin-left: 20px;
+    position: relative;
+    bottom: 10px;
     
 }
 .form{
@@ -494,11 +496,11 @@ body{
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
-font-family: Inter;
-font-size: 16px;
-font-weight: 400;
-margin: 10px;
-margin-left: 0;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    margin-left: 0;
 }
 .form-field::placeholder{
     padding: 10px;
@@ -530,6 +532,21 @@ margin-left: 0;
     margin-left: 0px;
     padding: 10px;
     margin-top: 5px;
+}
+#calculate{
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 20px;
+}
+#calculate:hover{
+    color: black;
 }
 
 
@@ -663,14 +680,61 @@ margin-left: 0;
     .bmi-calculator{
         width: 90%; 
         height: 150px;
-        margin-top: 30px;
+        margin-top: 50px;
     }
     .bmi-calculator h3{
-        font-size: 32px;
+        font-size: 28px;
     }
     .bmi-calculator p{
-        top: -25px;
+        top: -20px;
     }
+    .calculate-bmi-content-container{
+        flex-direction: column;
+        justify-content: center;
+        height: 740px;
+        width: 90%;
+        
+    }
+    .calculate-bmi-container{
+        height: 780px;
+    }
+    .bmi-calculator-container{
+        margin-left: 0px;
+        margin-top: 0;
+        position: relative;
+        bottom: 18px;
+    }
+    .bmi-chart-container{
+        position: relative;
+        bottom: 20px;
+        margin-left: 20px;
+    }
+    .bmi-chart-container h5{
+        font-size: 20px;
+    }
+    .bmi-calculator-container h5{
+        font-size: 22px;
+        margin-left: 20px;
+    }
+    .bmi-calculator-container p{
+        margin-left: 20px;
+    }
+    .form-field{
+        margin-left: 0;
+    }
+    .form-field{
+        width: 155px;
+        height: 48px;
+    }
+    #sex{
+        width: 160px;
+        height: 50px;
+    }
+    #activity-factor{
+        width: 334px;
+        height: 48px;
+    }
+
 
     
 
