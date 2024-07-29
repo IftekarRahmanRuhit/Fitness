@@ -704,12 +704,66 @@ body{
     margin-bottom: 20px;
     /* left: 15px; */
 }
-.ch{
-    width: 80%;
+.our-feature{
+    width: 70%;
     height: 200px;
     margin: 0 auto;
-    border: 2px solid tomato;
-    margin-top: 40px;
+    /* border: 2px solid tomato; */
+    margin-top: 100px;
+}
+.our-feature h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.our-feature p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+
+}
+.our-feature-content-container{
+    width: 95%;
+    height: 250px;
+    margin: 0 auto;
+    /* border: 2px solid rgb(71, 255, 92); */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    position: relative;
+    bottom: 40px;
+
+}
+.features-name{
+    width: 300px;
+    height: 230px;
+    /* border: 2px solid aqua; */
+    text-align: center;
+    border-radius: 18px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(255, 255, 255, 0.053);
+}
+.features-name h5{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 20px;
+}
+.features-name p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    position: relative;
+    bottom: 45px; 
 }
 
 
@@ -924,6 +978,64 @@ body{
     }
     .trainer-1,.trainer-2,.trainer-3,.trainer-4,.trainer-5,.trainer-6 {
         margin-left: 10px;
+    }
+    .our-feature{
+        width: 90%;
+        height: 180px;
+        margin: 0 auto;
+        /* border: 2px solid tomato; */
+        margin-top: 40px;
+    }
+    .our-feature h3{
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .our-feature p{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        position: relative;
+        bottom: 20px;
+    
+    }
+    .our-feature-content-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        position: relative;
+        bottom: -340px;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    .features-name{
+        width: 300px;
+        height: 230px;
+        /* border: 2px solid aqua; */
+        text-align: center;
+        border-radius: 18px;
+        padding-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        background-color: rgba(255, 255, 255, 0.053);
+    }
+    .features-name h5{
+        font-size: 25px;
+        font-weight: 800;
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 20px;
+    }
+    .features-name p{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+        text-align: center;
+        position: relative;
+        bottom: 45px; 
     }
 
 
