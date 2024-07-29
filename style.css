@@ -765,9 +765,70 @@ body{
     position: relative;
     bottom: 45px; 
 }
+.offer-section-container{
+    width: auto;
+    height: 600px;
+    /* border: 2px solid aquamarine; */
+    margin-top: 80px;
+    background-image: url(./images/offer.png.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.offer-section-content{
+    width: 600px;
+    height: 600px;
+    /* border: 2px solid greenyellow; */
+    position: relative;
+    left: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer-section-content h3{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 40px;
+   
+}
+.offer-section-content p{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(230, 83, 60);
+    position: relative;
+    bottom: 60px;
 
-
-
+}
+.offer-section-content .offer-description{
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 120px;
+}
+#join-02{
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-left: 20px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+    position: relative;
+    bottom:100px;
+    left: -20px;
+}
+#join-02:hover{
+    color:rgb(230, 83, 60);
+    background: rgba(15, 15, 15, 0.284);
+    border-color:rgb(230, 83, 60);
+}
 
 
 
@@ -1037,8 +1098,79 @@ body{
         position: relative;
         bottom: 45px; 
     }
+    .offer-section-container{
+        height: auto;
+        width: auto;
+        margin-top: 800px;
+       
+    }
+    .offer-section-content {
+        width: 100%; 
+        height: auto;
+        left: 0;
+     }
+    .offer-section-content h3 {
+        font-size: 32px; 
+        top: 0; 
+        text-align:center;
+    }
+    .offer-section-content p {
+        font-size: 40px; 
+        bottom:50px; 
+        text-align: center;
+    }
+    .offer-section-content .offer-description {
+        font-size: 14px; 
+        bottom:80px; 
+        text-align: center;
+    }
+    #join-02{
+        width: 170px;
+        height: 54px;
+        bottom:60px;
+        left: 105px;
+    }
 
 
+
+
+
+
+
+
+
+
+
+    /* .offer-section-content{
+        left:0px;
+        display: flex;
+        flex-direction: column;
+ 
+    }
+    .offer-section-content .offer-description{
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        position: relative;
+        bottom: 120px;
+        display: none;
+
+    }
+    .offer-section-content h3{
+        font-size: 32px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+        position: relative;
+        top: 40px;
+       
+    }
+    .offer-section-content p{
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(230, 83, 60);
+        position: relative;
+        bottom: 60px;
+    
+    } */
 
     
 
