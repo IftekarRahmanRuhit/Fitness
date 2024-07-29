@@ -864,12 +864,13 @@ body{
 .card-description{
     width: 400px;
     height: 500px;
-    border: 1px solid aqua;
+    /* border: 1px solid aqua; */
     background-color: rgba(255, 255, 255, 0.053);
     border: 0.5px solid transparent;
     transition: border-color 0.3s ease;
     cursor: pointer;
     border-radius: 14px;
+    
 }
 .card-description h5{
     font-size: 35px;
@@ -916,6 +917,7 @@ body{
     cursor: pointer;
     margin-left: 125px;
     margin-top: 20px;
+    align-items: center;
     border: 1px solid transparent;
     transition: border-color 0.3s ease;
     /* position: relative; */
@@ -1240,8 +1242,33 @@ body{
     .price-section-container h3{
         font-size: 38px;
     }
-
-
+    .card-container{
+        margin-top: 400px;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+    .card-description{
+        width: 80%;
+        margin: 0 auto;
+        height: 500px;
+        margin-bottom: 25px;
+        border: 1px solid aqua;
+        background-color: rgba(255, 255, 255, 0.053);
+        border: 0.5px solid transparent;
+        transition: border-color 0.3s ease;
+        cursor: pointer;
+        border-radius: 14px;
+    }
+    #join-03{
+        width: 120px;
+        height: 40px;
+        margin-left: 125px;
+        margin-top: 20px;
+        position: relative;
+        left: -13px;
+        bottom: 15px;
+    }
 
 
 
