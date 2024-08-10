@@ -930,6 +930,7 @@ body{
 }
 .card-description:hover{
     border-color:rgb(230, 83, 60);
+     /* background: rgba(255, 255, 255, 0.1); */
 }
 .footer-container{
     width: auto;
@@ -1159,8 +1160,7 @@ body{
         flex-direction: column;
         justify-content: center;
         height: 740px;
-        width: 90%;
-        
+        width: 90%; 
     }
     .calculate-bmi-container{
         height: 780px;
@@ -1363,7 +1363,6 @@ body{
         width: 400px;
         height: 300px;
     }
-
     .footer-content-1 p{
         font-size: 14px;
         font-weight: 400;
@@ -1371,9 +1370,7 @@ body{
         position: relative;
         bottom: 60px;
         line-height: 24px;
-        
     }
-
     .footer-content-2 h5{
         position: relative;
         bottom: 80px;
@@ -1396,131 +1393,4 @@ body{
         left: -5px;
     }
 
-
-
-
-
-
-
-
-
-
-
-   
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*     
-    .navbar-section-container{
-        margin-left: 40px;
-    }
-    .navbar-section-container i{
-        display:flex;
-        color: rgb(255, 255, 255);
-    }
-    .nav-options{
-        display: none;
-    }
-    .banner-section-container{
-        flex-direction: column;
-        margin-left: 40px;
-    }
-    .header{
-        height:1280px;
-    }
-    .banner-img-container{
-        margin-left: -10px;
-        margin-top: 60px;
-    }
-    .habit-section-container{
-        width: 90%;
-        height: 130px;
-    }
-    .habit-section-content h3{
-        font-size: 35px;
-        font-weight: 900;
-        color: rgb(255, 255, 255);
-    }
-    .habit-section-content p{
-        text-align: center;
-    }
-    .habit-section-img-container{
-        grid-template-columns: repeat(1,1fr);
-        margin-top: 30px;
-        height: 1330px;
-        width: 60%;
-        gap: 20px;
-    }
-    .movement img{
-        left: 75px;
-    }
-    .time img{
-        left: 75px;
-    }
-    .practice img{
-        left: 75px;
-    }
-    .weight-loss img{
-        left: 75px;
-    }
-    .run-extra-sction-container{
-        flex-direction:column;
-        height: 700px;
-        padding: 25px;
-       
-    }
-    .run-extra-sction-img-container{
-        width: 390px;
-    }
-    .run-extra-sction-img-container img{
-        /* margin-left: 20px; */
-        /* position: relative;
-        top: -30px; */
-    /* } */ 
-    
-
-
-
-
-
-
-
-
-
-
-
-    
 }
